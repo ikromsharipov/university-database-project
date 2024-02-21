@@ -1,0 +1,90 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0; 
+    position: fixed; /* Keep navbar at top */
+    top: 0;
+    width: 100%;
+    z-index: 10; /* Ensure navbar stays on top */
+}
+
+.logo h1 {
+    display: inline-block;
+}
+
+nav {
+    float: right; 
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block; 
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 0; /* Adds padding to increase clickable area */
+}
+
+.login-btn {
+    background-color: #28a745; /* Example login button color */
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+}    
+
+/* Responsive Design */
+@media (max-width: 768px) { 
+    /* Hide regular nav links  */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;  
+    }
+
+    /* Display nav links when hamburger menu is active */
+    .nav-links.active {
+        display: block;
+    } 
+
+    /* Hamburger menu display on small screens */
+    .hamburger-menu {
+        display: block;  
+    }  
+} 
