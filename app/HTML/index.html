@@ -7,34 +7,29 @@
     <title>University Portal</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>CAU</h1> 
+
+    <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+
+            <a class="home-link" href="#">Home</a>
+            <a href="#">Admission</a>
+            <a href="#">Faculty</a>
+            <a href="#">News</a>
+            <a href="../HTML/login.html">Login</a>
         </div>
+    </nav>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Admission</a></li>
-                <li><a href="#">Research</a></li>
-                <li><a href="#">Campus Life</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="./login.html" class="login-btn">Login</a></li> 
-            </ul>
-            <button class="hamburger-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </nav>
-    </header>
 
-    <main>
-        </main>
 
-    <footer>
-        </footer>
+
 
     <script src="../JavaScript/script.js"></script>
 </body>

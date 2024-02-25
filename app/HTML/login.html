@@ -2,21 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>University Portal</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Enter your first name: </label>
-        <input type="text">
-        <br><br>
-        <label for="">Enter your surname: </label>
-        <input type="text">
-        <br><br>
-        <label for="">Enter your student/work email: </label>
-        <input type="email">
-    </form>
-    
+
+    <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+
+            <a class="home-link" href="../HTML/index.html">Home</a>
+            <a href="#">Admission</a>
+            <a href="#">Faculty</a>
+            <a href="#">News</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+
+
+
+
+
+    <script src="../JavaScript/script.js"></script>
 </body>
 </html>
+
