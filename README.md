@@ -9,14 +9,20 @@ The University Portal project aims to centralize information and facilitate inte
 a. There are four (4) members in our group
 
 b. The names of the group members 
+
 IKROMJON SHARIPOV, ID: 220448, CS2-22
+
 Azizbek Boboqulov, ID: 221198, CS2-22
+
 Eshkulov Sherzod, ID: 210031, CS1-22
+
 Olimxojayev Azizxoja, ID: 220516, CS1-22
+
 
 2. Project Details
 
 a. Project Type: Web-Based Application
+
 There are several reasons why we chose a web-based application:
 
 Accessibility: Users can access our university portal from any device with a web browser and internet connection, without installing software.
