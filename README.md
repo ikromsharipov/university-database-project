@@ -5,7 +5,9 @@ Project Overview
 The University Portal project aims to centralize information and facilitate interaction between students and professors. It will provide student logins, searchable professor profiles, university announcements, and a course list.
 
 1. Group Formation
+
 a. There are four (4) members in our group
+
 b. The names of the group members 
 IKROMJON SHARIPOV, ID: 220448, CS2-22
 Azizbek Boboqulov, ID: 221198, CS2-22
